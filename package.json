@@ -1,8 +1,17 @@
 {
   "name": "airbnb",
   "version": "1.0.0",
-  "description": "그룹 프로젝트 #4",
-  "main": "index.js",
+  "main": "index.tsx",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/otterp012/boilerPlate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/otterp012/boilerPlate/issues"
+  },
+  "homepage": "https://github.com/otterp012/boilerPlate#readme",
   "scripts": {
     "dev": "webpack-dev-server --config config/webpack.dev.js",
     "prod": "webpack-dev-server --config config/webpack.prod.js",
@@ -12,17 +21,6 @@
   "browserslist": [
     "ie 11"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/otterp012/airbnb.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/otterp012/airbnb/issues"
-  },
-  "homepage": "https://github.com/otterp012/airbnb#readme",
   "eslintConfig": {
     "extends": "react-app"
   },
